@@ -1,1 +1,89 @@
-#
+.main_container {
+  display: block;
+  border: 1px solid black;
+}
+
+.main_grid {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid Yellow;
+}
+
+.header {
+  height: 64px;
+  border: 1px solid purple;
+}
+
+.page {
+  height: auto;
+  border: 1px solid cyan;
+}
+
+.footer {
+  height: 80px;
+  border: 1px solid red;
+}
+
+nav {
+  padding-right: 16px;
+  padding-top: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu_item {
+  margin-right: 16px;
+}
+
+.grid_sections {
+  display: block;
+  border: 1px solid black;
+}
+
+.section {
+  /**height: auto;
+  margin: auto;**/
+  border: 1px solid blue;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  height: auto; /** this is the height of the boxes **/
+  margin: 32px 24px;
+  border: 1px solid pink;
+}
+
+.content_image {
+  /*height: 100%;*/
+  max-width: 60%;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+
+.spacer {
+  margin-left: 40px;
+}
+
+.content_text {
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 40%;
+  border: 1px solid grey;
+  background-color: lightgreen;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
