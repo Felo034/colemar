@@ -1,3 +1,15 @@
+html {
+  line-height: 1;
+  font-family: Helvetica;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  height: 55px;
+}
+
 .main_container {
   display: block;
   border: 1px solid black;
@@ -9,7 +21,14 @@
   border: 1px solid Yellow;
 }
 
+.column {
+  max-width: 423px;
+  margin: 0 auto;
+}
+
 .header {
+  display: flex;
+  align-items: center;
   height: 64px;
   border: 1px solid purple;
 }
@@ -24,13 +43,20 @@
   border: 1px solid red;
 }
 
-nav {
+.menu nav {
   padding-right: 16px;
-  padding-top: 24px;
+  /*padding-top: 24px;*/
+}
+
+test {
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
+  margin: 0;
   font-size: 2rem;
+  padding-bottom: 24px;
 }
 
 .menu {
@@ -48,7 +74,18 @@ h1 {
   border: 1px solid black;
 }
 
+.col_grid_sections {
+  display: block;
+  border: 1px solid black;
+}
+
 .section {
+  /**height: auto;
+  margin: auto;**/
+  border: 1px solid blue;
+}
+
+.col_section {
   /**height: auto;
   margin: auto;**/
   border: 1px solid blue;
@@ -62,6 +99,18 @@ h1 {
   border: 1px solid pink;
 }
 
+.col_content {
+  display: flex;
+  justify-content: space-between;
+  height: auto; /** this is the height of the boxes **/
+  margin: 16px;
+  border: 1px solid pink;
+}
+
+#second .content_text {
+  width: 423px;
+}
+
 .content_image {
   /*height: 100%;*/
   max-width: 60%;
@@ -69,8 +118,23 @@ h1 {
   background-color: lightgrey;
 }
 
-.spacer {
-  margin-left: 40px;
+.col_content_image {
+  /*height: 100%;*/
+  max-width: 35%;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+
+.spacer1 {
+  margin-left: 24px;
+}
+
+.col_spacer1 {
+  margin-left: 24px;
+}
+
+.spacer2 {
+  margin-left: 16px;
 }
 
 .content_text {
@@ -82,8 +146,33 @@ h1 {
   background-color: lightgreen;
 }
 
+.col_content_text {
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 65%;
+  border: 1px solid grey;
+  background-color: lightgreen;
+}
+
 img {
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   position: relative;
+}
+
+.ifirst {
+  height: 100%;
+}
+
+#blurb {
+
+}
+
+#second {
+  width: 423px;
+}
+
+#logo img {
+  height: 55px;
 }
